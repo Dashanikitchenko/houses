@@ -73,11 +73,7 @@ html, body {
 }
 
 
-@media (min-width: 1200px) {
-    .first, .second {
-        font-size: 5.438rem;
-    }
-
+@media (min-width: 1400px) {
 
     .square {
         width: 1.23rem;
@@ -119,7 +115,7 @@ html, body {
 
 @media (max-width: 1200px) {
     .button3 {
-        font-size: 10px;
+        font-size: 1rem;
         padding: 10px 20px;
         margin-top: 20px;
     }
@@ -219,6 +215,8 @@ html, body {
 }
 
 @media (max-width: 1200px) {
+
+
     .modern {
         font-size: 1rem;
     }
@@ -239,15 +237,14 @@ html, body {
     .call_us .text-w {
         font-size: 2.25rem;
     }
-    .man_women{
+
+    .man_women {
         font-size: 0.875rem;
     }
 
 }
 
-@media (min-width: 1200px) {
-
-
+@media (max-width: 700px) {
 }
 
 .women {
@@ -284,33 +281,96 @@ html, body {
 }
 
 .modul {
-    padding: 2.5rem;
+    padding: 1.875rem;
 }
+
 #carouselExampleIndicators {
     height: 100%;
 }
-.man_women{
+
+.man_women {
     color: #212121;
 }
-.list{
+
+.list {
     color: #212121;
 
 }
-@media (max-width: 770px) {
+
+
+@media (max-width: 800px) {
     .foot {
         font-size: 0.75rem;
     }
+
+    .modul {
+        padding: 1rem;
+    }
+
+    .first, .second {
+        font-size: 2.625rem;
+    }
 }
+
 @media (max-width: 1400px) {
     .foot {
         font-size: 0.875rem;
     }
+
 }
+
 @media (max-width: 2000px) {
     .foot {
         font-size: 0.875rem;
     }
 }
-.foot{
+
+.foot {
     font-weight: 400;
+}
+
+@media (min-width: 800px) {
+    .first, .second {
+        font-size: 5.125rem;
+    }
+
+    .ben_name {
+        font-size: 1rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+
+    .number {
+        font-size: 3.875rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .cont_name {
+        font-size: 1rem;
+    }
+
+    .ben_name {
+        font-size: 0.875rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .number {
+        font-size: 2.25rem;
+    }
+}
+
+@media (min-width: 760px) {
+    .cont_name {
+        font-size: 1.5rem;
+    }
+}
+
+.accordion-button {
+    color: #212121;
 }
