@@ -24,26 +24,27 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Переваги</a>
+                    <a class="nav-link active" aria-current="page" href="#benefits">Переваги</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Роботи</a>
+                    <a class="nav-link " aria-current="page" href="#works">Роботи</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Про нас</a>
+                    <a class="nav-link " aria-current="page" href="#about_us">Про нас</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Відгуки</a>
+                    <a class="nav-link " aria-current="page" href="#feedback">Відгуки</a>
                 </li>
             </ul>
-            <form class="d-flex" role="search">
+            <div class="d-flex">
                 <button class="btn btn-outline-success " type="submit">Укр</button>
-            </form>
-            <form class="d-flex" role="search">
+            </div>
+            <div class="d-flex">
                 <div class="d-grid gap-2 col-10 mx-auto text-nowrap">
-                    <button class="btn btn-success" type="submit">Залишити заявку</button>
+                    <button class="btn btn-success" type="submit">
+                        <a class="a" href="#footer"> Залишити заявку</a></button>
                 </div>
-            </form>
+            </div>
         </div>
     </div>
 </nav>
@@ -90,12 +91,12 @@
                 </div>
 
             </div>
-            <form class="d-flex" role="search">
+            <div class="d-flex">
                 <div class="d-grid text-nowrap col-6 col-sm-4 col-lg-3 col-xl-2 ">
-                    <button class="button3 btn  btn-success" type="submit">Залишити заявку <img
+                    <button class="button3 btn  btn-success" type="submit"> <a class="a" href="#footer">Залишити заявку </a><img
                             src="img/Vector%201.png"></button>
                 </div>
-            </form>
+            </div>
         </div>
     </div>
 </div>
@@ -104,12 +105,12 @@
         <div class="row">
             <div class="col">
                 <div class="sho">
-                    <p class="cont_name">Що ми створюємо</p>
+                    <p class="cont_name" id="list">Що ми створюємо</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col12 ">
-                    <div class="list">
+                    <div class="list" >
                         <p class="fw-bold text-center">Дачні будинки</p>
                         <p class="fw-bold text-center">Мобільні офіси</p>
                         <p class="fw-bold text-center">Пости охорони</p>
@@ -120,7 +121,7 @@
         </div>
     </div>
 </div>
-<div class="benefits ">
+<div class="benefits " id="benefits">
     <div class="container section_padding">
         <div class="row">
             <div class="col">
@@ -167,7 +168,7 @@
 <div class="carousel">
     <div class="container section_padding">
         <div>
-            <p class="our_carousel cont_name">Наші роботи</p>
+            <p class="our_carousel cont_name" id="works">Наші роботи</p>
             <div class="d-flex flex-wrap">
                 <div class="col-xl-6 col-sm-12 justify-content-between">
                     <div id="carouselExampleIndicators" class="carousel slide">
@@ -232,7 +233,7 @@
     <div class="container section_padding">
         <div class="row d-flex align-items-center justify-content-center">
             <div class="col-lg-6 col-xl-6 col-sm-12">
-                <p class="about_us cont_name">Про нас</p>
+                <p class="about_us cont_name" id="about_us">Про нас</p>
                 <p class="modern">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum luctus
                     massa,
                     eget suscipit sem elementum in. Phasellus suscipit, nibh a sodales consequat, tellus ligula commodo
@@ -259,7 +260,7 @@
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" id="faq"
                             data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                         Чи є гарантія на дім?
                     </button>
@@ -341,7 +342,7 @@
         <div class="container section_padding">
             <div class="row">
                 <div class="col-12">
-                    <p class="feedback_us  cont_name ">Відгуки</p>
+                    <p class="feedback_us  cont_name " id="feedback">Відгуки</p>
                 </div>
             </div>
             <div class="row">
@@ -383,7 +384,7 @@
     <div class="container section_padding">
         <div class="row">
             <div class="col-lg-6 col-sm-12">
-                <p class="text-white text-w">Залиште дані та ми звʼяжемось з вами протягом години</p>
+                <p class="text-white text-w" id="footer">Залиште дані та ми звʼяжемось з вами протягом години</p>
             </div>
             <div class="col-lg-6 col-sm-12 d-flex flex-column gap-3 align-items-center justify-content-center">
                 <input class="form-control" type="text" placeholder="Ваше ім'я" aria-label="пример ввода по умолчанию">
@@ -417,18 +418,18 @@
             </div>
             <div class="col-lg-3 col-md-4 col-sm-12 text-white d-flex flex-column justify-content-between text-white mb-sm-5 mb-md-0 mb-5">
                 <div class="row">
-                    <p class="foot col-lg-12 col-md-12 col-sm-6 col-6 ">Що ми створюємо</p>
-                    <p class="foot col-lg-12 col-md-12 col-sm-6 col-6 ">Переваги</p>
-                    <p class="foot col-lg-12 col-md-12 col-sm-6 col-6 ">Роботи</p>
-                    <p class="foot col-lg-12 col-md-12 col-sm-6 col-6 ">FAQ</p>
-                    <p class="foot col-lg-12 col-md-12 col-sm-6 col-6 m-0">Відгуки</p>
+                    <p class="foot col-lg-12 col-md-12 col-sm-6 col-6 " ><a class="foot" href="#list">Що ми створюємо</a></p>
+                    <p class="foot col-lg-12 col-md-12 col-sm-6 col-6 "><a class="foot" href="#benefits">Переваги</a></p>
+                    <p class="foot col-lg-12 col-md-12 col-sm-6 col-6 "><a class="foot" href="#works">Роботи</a></p>
+                    <p class="foot col-lg-12 col-md-12 col-sm-6 col-6 "><a class="foot" href="#faq">FAQ</a></p>
+                    <p class="foot col-lg-12 col-md-12 col-sm-6 col-6 m-0"><a class="foot" href="#feedback">Відгуки</a></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 d-flex flex-column justify-content-between text-white mb-sm-5 mb-md-0 mb-5">
                 <div><p class="small">Звʼязатись з нами</p></div>
-                <div><p class="mb-0 big">+38 (095) 702 04 04</p></div>
-                <div><p class="mb-0 big">+38 (095) 702 04 04</p></div>
-                <div><p class="big">+38 (095) 702 04 04</p></div>
+                <div><p class="mb-0 big"><a class="big" href="tel:+380931234567">+38 (095) 702 04 04</a></p></div>
+                <div><p class="mb-0 big"><a class="big" href="tel:+380931234567">+38 (095) 702 04 04</a></p></div>
+                <div><p class="big"><a class="big" href="tel:+380931234567">+38 (095) 702 04 04</a></p></div>
                 <div><p class="mb-0 small">м. Дніпро вул. Гаванська 23</p></div>
             </div>
         </div>
